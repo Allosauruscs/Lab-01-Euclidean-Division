@@ -16,6 +16,6 @@ public class EuclideanDivision {
         divisor = input.nextInt();
         quotient = dividend / divisor;
         remainder = dividend % divisor;
-        System.out.println(dividend + "=" + divisor + "*" + quotient + "+" + remainder);
+        System.out.println(dividend + " = " + divisor + " * " + quotient + " + " + remainder);
     }
 }
