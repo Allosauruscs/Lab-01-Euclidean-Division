@@ -4,12 +4,12 @@ import java.util.Scanner;
  @author Allosauruscs */
 public class EuclideanDivision {
     public static void main(String[] args) {
-        // Scanner object to receive keyboard input
         int dividend, divisor, quotient, remainder;
+        // Scanner object to receive keyboard input
         Scanner input = new Scanner(System.in);
-        // Prompt the user to enter an integer
+        
         System.out.println("Euclidean Division");
-
+        // Prompt the user to enter an integer
         System.out.print("Enter the dividend: ");
         dividend = input.nextInt();
         System.out.print("Enter the divisor: ");
